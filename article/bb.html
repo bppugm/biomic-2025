@@ -22,7 +22,7 @@
   <script src="../javascripts/bootstrap.js"></script>
   <script src="../javascripts/bootstrap.bundle.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
   <script src="../javascripts/gtag.js"></script>
 
 
@@ -46,15 +46,15 @@
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
             Indonesia. 30-31 July 2025</span></a>
         <ul class="nav">
+          <!-- <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
+              href="https://twitter.com/icstugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li> -->
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
-              href="https://twitter.com/icstugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
-          <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
-              href="https://instagram.com/icstugm" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
-          <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
-              href="https://www.youtube.com/@icstugm5899" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+              href="https://instagram.com/biomicugm" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+          <!-- <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
+              href="https://www.youtube.com/@icstugm5899" target="_blank"><i class="fab fa-youtube fa-lg"></i></a> -->
           </li>
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
-              href="mailto:icst@ugm.ac.id" target="_blank"><i class="fas fa-envelope fa-lg"></i></a></li>
+              href="mailto:biomic@ugm.ac.id" target="_blank"><i class="fas fa-envelope fa-lg"></i></a></li>
         </ul>
       </div>
     </nav>
@@ -100,21 +100,30 @@
                   <li><a class="dropdown-item" href="bse.html">BSE Symposium</a></li>
                   <li><a class="dropdown-item" href="ddn.html">DDN Symposium</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="https://bppugm.github.io/icst-2025/article/ceit.html" target="_blank">CEIT Symposium</a></li>
-                  <li><a class="dropdown-item" href="https://bppugm.github.io/icst-2025/article/gem.html" target="_blank">GEM Symposium</a></li>
                   <li><a class="dropdown-item" href="https://bppugm.github.io/icst-2025" target="_blank">ICST UGM 2025</a></li>
                   <li><a class="dropdown-item" href="https://bppugm.github.io/icosia-2025" target="_blank">ICoSIA 2025</a></li>
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Authors
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
               <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
               <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
-        <button class="btn btn-primary nav-register">Register</button>
+        <button class="btn btn-primary nav-register" disabled>Register</button>
       </div>
     </nav>
   </header>
@@ -138,14 +147,16 @@
         <div class="nav nav-tabs" id="bbTab" role="tablist">
           <button class="nav-link active" id="aboutBBtab" data-bs-toggle="tab" data-bs-target="#aboutBB"
             type="button" role="tab" aria-controls="aboutBB" aria-selected="true">About BB</button>
-          <button class="nav-link" id="authorBBtab" data-bs-toggle="tab" data-bs-target="#authorBB" type="button"
-            role="tab" aria-controls="authorBB" aria-selected="false">Author Guidelines</button>
           <li class="nav-item">
-            <a class="nav-link" href="fee.html" aria-selected="false">Participation Fee</a>
+            <a class="nav-link" href="author-guidelines.html" aria-selected="false">Author guidelines</a>
           </li>
-          <button class="nav-link" id="submitBBtab" data-bs-toggle="tab" data-bs-target="#submitBB" type="button"
-            role="tab" aria-controls="submitBB" aria-selected="false"><i class="fa-solid fa-plus"
-              style="padding-right: 10px;"></i>Submit paper</button>
+          <li class="nav-item">
+            <a class="nav-link" href="fee.html" aria-selected="false">Participation fee</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="submission.html" aria-selected="false"><i class="fa-solid fa-plus"
+              style="padding-right: 10px;"></i>Submit paper</a>
+          </li>
         </div>
       </nav>
       <div class="tab-content" id="bbTabContent">
@@ -163,454 +174,24 @@
             </div>
             <div class="col-lg-9 col-md-12">
               <h5 id="topics">Topics</h5>
-              <p>Artificial intelligence, Bioinformatics, Computational sciences, Computer graphics, Computer vision,
-                Data sciences, Decision support system, E-government, Game design, Information system security,
-                Knowledge discovery and data mining, Medical Informatics, Mobile computation, Modeling and simulation,
-                Multimedia applications and technologies, Parallel computation, Pattern recognition, Signal and image
-                processing, Soft computing, Software engineering and software testing, Web technology, Adaptive control,
-                Antennas, Biomedical electronics, Cognitive radio, Computer-aided – electronics design and technology,
-                Control of infinite-dimensional systems, Control theory and applications, Cooperative communications,
-                Device material and manufacturing technology, Embedded systems and SoC design, Geometric control theory
-                and applications, Green design for VLSI and microelectronic circuits, Heterogeneous networks, Industrial
-                automation and control systems technology, Information theory and coding systems, Intelligent control,
-                Internet of things, Machine-to-machine (M2M) communications, Mobile computing, Multimedia
-                communications, Network security, Photonic and optoelectronic circuits, Computational methods and
-                reliability, Electricity markets and business models, Energy conservation and efficiency, Energy
-                storage, FACTS, Future integrated electric power system, HVDC, Integrated energy system planning,
-                Microgrids and remote communities, Policies and smart grids, Power electronics, Propagation and channel
-                modeling, Radio resource management and optimization, Renewable energy: generation and integration, RF
-                devices and circuits, Robotics and autonomous systems, Robust and nonlinear control, Satellite
-                communications, Signal processing for communications, Smart grids: existing and emerging technologies,
-                Spread spectrum systems, Ultra-wideband technology, Vehicular communication systems, Wireless Ad-hoc and
-                sensor networks, and Sensors and sensor systems.</p>
+              <p>Advances in biotechnology, Animal biotechnology, Bioethics and biotechnology, Biomass and bioenergy, Bioprocess and fermentation technology, Biotechnology and intellectual property rights, Biotechnology entrepreneurship, Environmental biotechnology, Enzyme technology, Food biotechnology, Marine biotechnology, Microbial biotechnology, Plant and forest biotechnology, and Stem cell biotechnology.</p>
               <h5 id="publication">Publication</h5>
-              <p>The accepted and presented papers <b>has been submitted for possible inclusion to</b> journals/proceedings that are
-                indexed by Scopus/CPCI/DOAJ: <a href="https://scientific.net"
-                  target="_blank">Scientific.Net</a>.</p>
+              <p>The accepted and presented papers <b>will be submitted for possible inclusion to</b> journals/proceedings that are indexed by Scopus/Web of Science/DOAJ
+                <!-- : Indonesian Journal of Biotechnology (Scopus Q3) -->
+                .</p>
                 <a href="editorial-policy.html"><button class="btn btn-primary">Read editorial policy</button></a><br><br>
               <h5 id="committees">Committees</h5>
               <p><b>Scientific committee:</b><br>
-                Unan Yusmaniar Oktiawati, Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
+                Dr. Fajar Sofyantoro, S.Si., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57200339492" target="_blank"><img
+                  src="../images/publication/scopus.svg" height="12.5px"></a><br>
                 <br>
                 <b>Technical program committee:</b><br>
-                Azkario Rizky Pratama, S.T., M.Eng., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Muhammad Alfian Amrizal, B.Eng., M.I.S., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Lukman Heryawan, ST, MT (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Yunita Sari, S.Kom., M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Faizal Makhrus, S.Kom., M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
-                <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Prof. Dr.-Ing. Mhd. Reza M. I. Pulungan, S.Si., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Arif Nurwidyantoro, S.Kom., M.Cs., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Dyah Aruming Tyas, S.Si. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Syukron Abu Ishaq Alfarozi, ST, Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
-                <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Guntur Dharma Putra (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Teguh Bharata Adji, S.T., M.T., M.Eng., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Ahmad Ataka Awwalur Rizqi, ST, Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
-                <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Ahmad Nasikun, ST, M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr.Eng. Ir. Sunu Wibirama, ST, M.Eng., IPM. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Ir. Adhistya Erna Permanasari, ST, MT, Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Indriana Hidayah, S.T., M.T. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Eng. Silmi Fauziati, ST, MT. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. I Wayan Mustika, S.T., M.Eng. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Ronald Adrian, S.T., M.Eng. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Yuris Mulya Saputra, S.T., M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
-                <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr.Eng. Tika Erna Putri, S.Si., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
-                <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Wijayanti Dwi Astuti, S.Si., M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Fahmizal, S.T., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr. Fitri Puspasari, S.Si., M.Sc (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <img
-                  src="../images/publication/scopus.svg" height="12.5px"><br>
-                Dr.Eng. Ganjar Alfian, S.T., M.Eng. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
-                <img src="../images/publication/scopus.svg" height="12.5px"><br>
-                Airlangga Adi Hermawan, S.T., M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
-                  Indonesia</i>) <img src="../images/publication/scopus.svg" height="12.5px">
+                Prof. Dr. Yekti Asih Purwestri, S.Si., M.Si. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=26423296500" target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a><br>
+                Dr. Tri Rini Nuringtyas, S.Si., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=55184030800" target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a><br>
+                Dr. Dini Wahyu Kartika Sari, S.Pi., M.Si. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57201271635" target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a><br>
+                Valentina Dwi Suci Handayani, S.P., M.Sc. Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57194212458" target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a><br>
+                Lisna Hidayati, S.Si., M.Biotech. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57190937941" target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a>
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="authorBB" role="tabpanel" aria-labelledby="authorBBtab" tabindex="0">
-          <div class="row py-5">
-            <div class="col-md-3 d-lg-block d-md-none">
-              <a href="#prepare" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Preparing
-                paper</a>
-              <a href="#docs" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Templates</a>
-              <a href="#docs" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Related
-                documents</a>
-              <a href="#learn" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">💡 Learning
-                tips</a>
-            </div>
-            <div class="col-lg-9 col-md-12">
-              <h5 id="prepare">Preparing your paper</h5>
-              <ol type="1">
-                <li>The paper topic should <u>align with the scope of the symposium</u>, as well as the publisher's
-                  guidelines, to ensure relevance to the event's focus. This ensures that the submitted work is
-                  pertinent to the conference's objectives and will be of interest to the attendees and readers.</li>
-                <li>The submitted paper must be <u>an original work</u> and should not have been previously published or
-                  presented at another meeting (similarity score no more than 25%). <span style="color: gray;">💡 To
-                    ensure the paper's authenticity, it is recommended to use the Similarity Checker feature available
-                    in the Editor pane of Microsoft Word to check the paper against online sources.</span></li>
-                <li>The paper should be <u>written in English (US)</u>, with font type Helvetica or Arial (for paper
-                  title, authors' information, and keywords) and Times New Roman (for all contents, included figures and
-                  tables).</li>
-                <li>The <u>abstract should be concise and no longer than 200 words</u>, excluding the abstract title,
-                  authors, and affiliations. It should be <u>formatted in a two-column layout on A4 paper size</u> in
-                  <code style="color: black;">DOC</code>/<code style="color: black;">DOCX</code>/<code
-                    style="color: black;">RTF</code>/<code style="color: black;">ZIP</code> and <code
-                    style="color: black;">PDF</code> format.
-                  Furthermore, the paper should be <u>at least four pages long or six pages in maximum</u>.
-                </li>
-                <li>The template, modified in Microsoft Word and saved as a <code style="color: black;">DOCX</code> file
-                  for PC compatibility, offers authors a comprehensive set of formatting guidelines for preparing
-                  electronic versions of their papers. <span style="color: gray;">You can access the <a
-                      href="#docs">downloadable <code>DOCX</code> template here ↧</a>. This template includes built-in
-                    specifications for margins, column widths, line spacing, font sizes, and font types, ensuring a
-                    professional and consistent appearance for your submissions.</span></li>
-                <ul>
-                  <li>Font types. Times, Times Roman, or Times New Roman.</li>
-                  <li>Font sizes. Title and author name (14 pt);</li>
-                  <li>Author information and Keywords (11 pt); Content (12 pt);</li>
-                  <li>Margins. Top (25 mm); Bottom (15 mm); Left and Right (20 mm); and</li>
-                  <li>Please ensure that all fonts are embedded, not as encrypted/secured file, and has no headers,
-                    footers, bookmarks, form fields, links, or annotation. <span style="color:gray">💡 For further
-                      assurance, we recommend utilizing the <a href="http://pdf-analyser.edpsciences.org/"
-                        target="_blank">PDF analyzer ↗︎</a> provided by EDP Sciences to inspect the document and
-                      guarantee that the submitted paper meet the required standards.</span></li>
-                </ul>
-                <li>To ensure optimal print quality, it is crucial that the <u>listed artworks are provided with the
-                    highest resolution suitable for printing</u>, specifically 300 DPI (dots per inch). <span
-                    style="color: gray;">💡 For further assurance, we recommend utilizing the <a
-                      href="http://pdf-analyser.edpsciences.org/" target="_blank">PDF analyzer ↗︎</a> provided by EDP
-                    Sciences to inspect the document and guarantee that the artworks meet the required standards.</span>
-                </li>
-                <li>When incorporating tables and figures from external sources into your paper, ensure that the
-                  original work is written in English (US) and that you have obtained the necessary permissions from the
-                  copyright holder. Additionally, include a proper credit in your paper to acknowledge the source and
-                  comply with copyright regulations.</li>
-                <li>For both primary and co-authors, it is essential to provide complete credentials, including full
-                  names and email addresses. If co-authors are affiliated with multiple institutions, the secondary
-                  institution(s) and the investigators associated with each institution must be listed. Please note that
-                  the author name order should not be reversed unless explicitly instructed by the publisher.
-                  Additionally, affiliations and author names <u>should not include professional titles</u>, such as
-                  "Professor", "Graduate Student Researcher", "HOD", "Lecturer", "Alumnus", etc., to maintain
-                  consistency and clarity.</li>
-                <li>Do not use boldface typing or capital letters except for section headings (cf. remarks on section
-                  headings, below).</li>
-              </ol>
-              <h5 id="docs">Downloadable templates and related documents</h5>
-              <a class="btn btn-trans2primary" href="../downloads/ttp-paper-template-general.docx" target="_blank"><i
-                  class="fa-solid fa-file-word" style="padding-right: 10px;"></i> Docx paper template
-                <code>26 KB</code></a><br>
-              <a class="btn btn-trans2primary"
-                href="https://www.overleaf.com/latex/templates/trans-tech-publications-scientific-dot-net-template/kqvrptmcvycs" target="_blank"><i
-                  class="fa-solid fa-file-code" style="padding-right: 10px;"></i> LaTeX paper template
-                <code>Overleaf</code></a><br>
-              <a class="btn btn-trans2primary" href="https://www.scientific.net/PolicyAndEthics/PublishingPolicies" target="_blank"><i
-                  class="fa-solid fa-shield-halved" style="padding-right: 8px;"></i> Policy & ethics</a><br><br>
-              <div class="alert alert-info">
-                <h5 id="learn">💡 Learning tips</h5>
-                <a class="btn btn-trans2primary"
-                  href="https://support.microsoft.com/en-us/office/check-your-document-for-similarity-to-online-sources-6d942360-b5ca-445f-a84d-6e8c66fc40d2" target="_blank"><i
-                    class="fa-solid fa-clipboard-check" style="padding-right: 10px;"></i> Check similarity with
-                  Microsoft Editor</a><br>
-                <a class="btn btn-trans2primary"
-                  href="https://support.microsoft.com/en-us/office/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109" target="_blank"><i
-                    class="fa-solid fa-swatchbook" style="padding-right: 8px;"></i> Use styles in Microsoft Word</a><br>
-                <a class="btn btn-trans2primary"
-                  href="https://answers.microsoft.com/en-us/msoffice/forum/all/how-do-i-embed-fonts-when-converting-a-word/70ff5c56-034c-42d0-b334-e396a2ebb689" target="_blank"><i
-                    class="fa-solid fa-spell-check" style="padding-right: 8px;"></i> Embed all fonts in Microsoft
-                  Word</a><br>
-                <a class="btn btn-trans2primary" href="http://pdf-analyser.edpsciences.org/" target="_blank"><i
-                    class="fa-solid fa-magnifying-glass" style="padding-right: 10px;"></i> Check document's content</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="submitBB" role="tabpanel" aria-labelledby="submitBBtab" tabindex="0">
-          <div class="py-5">
-            <p>To participate as a presenter in this symposium, there are seven steps that you need to follow.</p>
-            <div class="accordion">
-              <div class="accordion-item">
-                <h6 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseOne" style="text-transform: uppercase;">
-                    #1<span style="font-weight: 800; padding-left: 10px;">Create a Scientific.net account</span>
-                  </button>
-                </h6>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <div class="alert alert-info" style="padding-bottom: 0px;">
-                      <p>Before submitting your paper, the authors need to have a Scientific.Net account. If you
-                        already have a Scientific.net account, you can go to the next step to activate your registered
-                        account.</p>
-                    </div>
-                    <h6>1. Go to the Scientific.net site</h6>
-                    <p>Type <a href="https://main.scientific.net/account/login?" target="_blank"><code>Scientific.net</code></a> on
-                      your browser and click <code>Register now</code> below the login form.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-create-new-account.png" class="img-fluid">
-                    <hr>
-                    <h6>2. Entry your details</h6>
-                    <p>Type your information in the required fields (marked with an asterisk), you can complete other
-                      information after the registration.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-create-new-account-2.png"
-                      class="img-fluid">
-                      <hr>
-                    <h6>3. Verify your account</h6>
-                    <p>Verify your account by clicking the <code>link</code> in your email.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-create-new-account-3.png"
-                      class="img-fluid"><br><br>
-                    <div class="alert alert-success" style="padding-bottom: 0px;">
-                      <h6>Your account has been created!</h6>
-                      <p>Now, you can go to the next step to activate your account.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h6 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo" style="text-transform: uppercase;">
-                    #2<span style="font-weight: 800; padding-left: 10px;">Activate your account</span>
-                  </button>
-                </h6>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <div class="alert alert-info" style="padding-bottom: 0px;">
-                      <p>Before submitting your paper, the authors need to activate their Scientific.net account.
-                      </p>
-                    </div>
-                    <p>Type your Scientific.net account details in the activation request form by clicking the button
-                      below.</p>
-                    <a href="#" class="btn btn-primary disabled">Request activation</a><br><br>
-                    <p>If you still didn't get the email from the editors, feel free to <a href="mailto:icst@ugm.ac.id"
-                        target="_blank">contact us</a>. Please note that we use a third-party software, so you cannot
-                      request in the end of time.</p>
-                    <div class="alert alert-success" style="padding-bottom: 0px;">
-                      <h6>Your account has been activated!</h6>
-                      <p>Now, you can go to the next step to submit your paper in the system.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree" style="text-transform: uppercase;">
-                    #3<span style="font-weight: 800; padding-left: 10px;">Submit your paper</span>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <div class="alert alert-info" style="padding-bottom: 0px;">
-                      <p>After activating a Scientific.Net account, you can submit your paper in the system. To
-                        maximize our services, you need to complete the following details before submitting your
-                        paper:
-                      <ul>
-                        <li>the email address of all authors in your paper.</li>
-                        <li>paper format and content in accordance with the <a href="author-guidelines.html">author
-                            guidelines</a>.</li>
-                      </ul>
-                      <a href="https://edas.info" target="_blank" class="btn btn-primary">Submit
-                        my paper</a>&nbsp;&nbsp;<a href="editorial-policy.html" target="_blank"
-                        class="btn btn-success">Read editorial policy</a>
-                      </p>
-                    </div>
-                    <h6>1. Log in to the Scientific.Net site</h6>
-                    <p>Type <a href="https://main.scientific.net/account/login?" target="_blank">scientific.net</a> and
-                      log in to your registered account.</p>
-                    <img src="../images/tutorials/scientificnet-login.png" class="img-tutorial">
-                    <hr>
-                    <h6>2. Read Trans Tech Publications Ltd.' policy and ethics</h6>
-                    <p>Once you are logged in, click the <code>Author</code> on the top menu.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-submit-new-paper.png"
-                      class="img-tutorial">
-                    <p>Click <code>Policies and Ethics</code> under the <code>Author home</code> tab to view the <a
-                        href="https://www.scientific.net/Home/PolicyAndEthics" target="_blank">Trans Tech Publications
-                        Ltd.' Policy and Ethics</a>.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-read-policies-and-ethics.png"
-                      class="img-tutorial">
-                    <p>Please read it carefully before starting to upload your paper.</p>
-                    <hr>
-                    <h6>3. Go to symposium's tab</h6>
-                    <p>On the <code>Author home</code> tab, click <code>Upload page</code> to begin the paper
-                      submission.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-submit-new-paper-2.png"
-                      class="img-tutorial">
-                    <p>Select radio button and click <code>Continue</code>.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-submit-new-paper-3.png"
-                      class="img-tutorial">
-                    <p>Select the radio button before your co-author’s name and click <code>Select this person</code>
-                      button to confirm it.</p>
-                    <hr>
-                    <h6>4. Entry your paper details</h6>
-                    <p>On the <code>Edit paper</code> tab, browse your <code>DOC</code> / <code>DOCX</code> /
-                      <code>RTF</code> / <code>ZIP</code> and <code>PDF</code> files. Click <code>Upload</code> button
-                      to start uploading. The uploaded files should be less than 64 MB.
-                    </p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-submit-new-paper-4.png"
-                      class="img-tutorial">
-                    <p>Type your paper title and abstract, then click <code>Update</code>.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-submit-new-paper-5.png"
-                      class="img-tutorial">
-                    <hr>
-                    <h6>5. Select your corresponding author</h6>
-                    <p>Add your co-authors account by clicking <code>Add new</code> button under
-                      <code>Edit authors</code> tab. Find your co-authors account by their names, emails, or ORCID.
-                    </p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-add-co-authors.png" class="img-tutorial">
-                    <p>Click the radio button to select your corresponding author.</p>
-                    <hr>
-                    <h6>6. Add your paper's keywords</h6>
-                    <p>Add your paper's keyword by clicking <code>Add</code> button after writing it in the box. Use the
-                      toolbar to type an unusual character, e.g., Latin expressions, mathematical and chemical formulas,
-                      or Greek symbols.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-add-keywords.png" class="img-tutorial">
-                    <hr>
-                    <h6>7. Sign the copyright agreement</h6>
-                    <p>Read the copyright agreement carefully. Select radio button on "Author's own work", tick the box
-                      "I confirm that I have been entitled by all authors to sign this Agreement on their behalf", and
-                      click <code>Accept</code> button.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-sign-copyright-agreement.png"
-                      class="img-tutorial">
-                    <p>Your agreement has been signed. You can download your agreement by clicking on the
-                      <code>PDF icon</code>.
-                    </p>
-                    <hr>
-                    <h6>8. Tick the checklist</h6>
-                    <p>Tick all required fields (marked with an asterisk) and finish it by clicking <code>Submit</code>
-                      button.</p>
-                    <img src="../images/tutorials/scientificnet/scientificnet-checklist.png" class="img-tutorial">
-                    <p>Your paper has been submitted. You can watch the <a
-                        href="../images/tutorials/scientificnet/Author_Tool.mp4" target="_blank">tutorial video</a> on
-                      the <code>Author home</code> tab.</p>
-                    <p>If you still require further assistance, please feel free to <a href="mailto:icst@ugm.ac.id"
-                        target="_blank">contact us</a>.</p>
-                    <div class="alert alert-success" style="padding-bottom: 0px;">
-                      <h6>Your paper has been uploaded!</h6>
-                      <p>Your paper is under review process and we will notify you again soon.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseFour" style="text-transform: uppercase;">
-                    #4<span style="font-weight: 800; padding-left: 10px;">Peer-review process</span>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <p>Your paper will go to the blind review. You can check the status of your paper anytime
-                      from your account in the Scientific.Net. We will notify you too via email when the review process
-                      was finished.</p>
-                    <a href="https://edas.info" target="_blank" class="btn btn-primary">Check my
-                      paper</a>&nbsp;&nbsp;<a href="editorial-policy.html" target="_blank"
-                      class="btn btn-success">Read editorial policy</a>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseFive" style="text-transform: uppercase;">
-                    #5<span style="font-weight: 800; padding-left: 10px;">Pay the conference fee</span>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <p>If your paper has been accepted for presentation at the conference, please ensure that you
-                      pay the conference fee prior to uploading the revised paper. Note that each paper can only be
-                      presented by one author, but one author can present multiple papers.</p>
-                    <a href="https://edas.info" target="_blank" class="btn btn-primary">Check my
-                      paper ID</a>&nbsp;&nbsp;<a href="fee.html" target="_blank" class="btn btn-success">Read payment
-                      procedure</a><br><br>
-                    <div class="alert alert-success" style="padding-bottom: 0px;">
-                      <h6>The 5th step of the submission process has been completed.</h6>
-                      <p>You can now prepare your revised paper and presentation document while awaiting verification of
-                        your payment.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseSix" style="text-transform: uppercase;">
-                    #6<span style="font-weight: 800; padding-left: 10px;">Submit presentation document</span>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <p>To complete the submission process, please navigate to the <a href="https://edas.info/"
-                        target="_blank">EDAS dashboard page ↗︎</a> and click on your paper title. Then, upload your
-                      presentation in <code>PPT</code>, <code>PPTX</code>, or <code>PDF</code> format by clicking the
-                      cloud icon in the <code>Presentation</code> section. Additionally, ensure that you approve the
-                      public release (if applicable).</p>
-                    <p>If you encounter any difficulties during the upload process, please do not hesitate to <a
-                        href="mailto:icst@ugm.ac.id" target="_blank">contact us</a>. Please note that any presentations
-                      not received by the deadline will be considered as no-shows, in accordance with the non-presented
-                      paper policy.</p>
-                    <a href="https://edas.info/" target="_blank" class="btn btn-primary">Submit presentation
-                      document</a><br><br>
-                    <div class="alert alert-success" style="padding-bottom: 0px;">
-                      <h6>Your presentation document has been submitted!</h6>
-                      <p>Your presentation document has been successfully submitted. Next, please ensure that you are
-                        available to present on <b>October 23-24</b>. If you are unable to present on the scheduled day,
-                        your paper will be considered as no-shows in accordance with the non-presented paper
-                        policy.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseSeven" style="text-transform: uppercase;">
-                    #7<span style="font-weight: 800; padding-left: 10px;">Attend the conference</span>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <p>Following the submission of your revised paper and presentation document, it is essential that
-                      you participate in the live Q&A session at the conference. Please ensure that you allocate time on
-                      <b>October 23-24 in Yogyakarta, Indonesia</b>, as the conference program is non-negotiable and
-                      must adhere to the schedule provided by the organizing committee.
-                    </p>
-                    <p>In the event that you are unable to attend, please arrange for one of your co-authors to
-                      represent you. Any changes to attendance will result in a corresponding change to the name listed
-                      on the certificate, which will be sent via email.</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

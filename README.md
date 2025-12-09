@@ -31,7 +31,7 @@ This is the copy of website for The 6<sup>th</sup> International Conference on B
 All symposia images are free to use.
 + Big Data for Public Health Policy symposium by Cottonbro Studio via [Pexels](https://www.pexels.com/photo/person-in-white-shirt-with-brown-wooden-frame-4769486/); [Free to use](https://www.pexels.com/license/).
 + Bioinformatics and Data Mining symposium by Javier Miranda via [Unsplash](https://unsplash.com/photos/background-pattern-6NjUwCfRddM); [Free to use](https://www.pexels.com/license/).
-+ Biomedical Sciences and Engineering via [Unsplash](https://unsplash.com/photos/a-close-up-of-a-rock-with-holes-in-it-6VwNCXfmYak); [Free to use](https://unsplash.com/license). 
++ Biomedical Sciences and Engineering by Danielle Barnes via [Unsplash](https://unsplash.com/photos/a-close-up-of-a-rock-with-holes-in-it-6VwNCXfmYak); [Free to use](https://unsplash.com/license). 
 + Biomolecular and Biotechnology symposium by National Cancer Institute via [Unsplash](https://unsplash.com/photos/person-in-blue-long-sleeve-shirt-holding-blue-plastic-toy-W6yy0wYV-hk); [Free to use](https://unsplash.com/license).
 + Drug Development and Nutraceutical symposium by Yan Krukau via [Pexels](https://www.pexels.com/photo/top-view-of-woman-mixing-herbs-in-mortar-5480192/); [Free to use](https://www.pexels.com/license/).
 
@@ -43,6 +43,9 @@ All symposia images are free to use.
 
 ### Other images
 +  Venue image ©  Faculty of Cultural Sciences UGM.
++  404 page by [pch.vector](https://www.freepik.com/free-vector/lab-assistants-doing-research_6974904.htm); Modified, [Free to use](https://www.freepikcompany.com/legal?_gl=1*1mzv534*fp_ga*NDY3NDMwMDk4LjE2ODA3MjU1NjI.*fp_ga_QWX66025LC*MTY4MDkyMzUzOS41LjEuMTY4MDkyMzU4My4xNi4wLjA.*_ga*NDY3NDMwMDk4LjE2ODA3MjU1NjI.*_ga_18B6QPTJPC*MTY4MDkyMzUzOS41LjAuMTY4MDkyMzU0Mi41Ny4wLjA.#nav-freepik-license).
++  Presenter image by [M Rafieiy](https://www.flickr.com/photos/rafieiy/37070590764/); [CC BY NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/).
++  Non-presenter image by [Joakim Honkasalo](https://unsplash.com/photos/DurC25GdOvk); [Free to use](https://unsplash.com/license).
 
 ## License
 

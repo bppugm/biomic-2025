@@ -49,4 +49,4 @@ All symposia images are free to use.
 
 ## License
 
-© 2025 UGM's Research Directorate under the MIT License.
+© 2025&ndash;2026 UGM's Research Directorate under the MIT License.
